@@ -34,7 +34,7 @@ print ("\n")
 if q1==1:
 	q2=input("\033[1;33;40m[*]"+"\033[1;32;40m Enter URL"+"\033[1;36;40m: ")
 	def url():
-	        print (q2)
+	        print ("First install w3m...." +"type "+"\033[1;37;40m apt install w3m "+"\033[1;36;40m and Enter after run this script again....")
         	webbrowser.open_new(q2);
 	url()
 
